@@ -2,8 +2,6 @@
 //  Enums.h
 //  Blackjack 
 //
-//  Created by Romy Gou on 10/11/23.
-//
 
 #ifndef ENUM_H
 #define ENUM_H
