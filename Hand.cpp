@@ -2,8 +2,6 @@
 //  Hand.cpp
 //  Blackjack 
 //
-//  Created by Romy Gou on 10/11/23.
-//
 
 #include "Hand.h"
 
@@ -26,7 +24,6 @@ Card Hand::getCard2() const
     return( mCard2 );
 }
 
-// TODO CS 32 students need to complete this operation
 Choice Hand::evaluateHand( Card dealerCard ) const
 {
     // by default STAND
@@ -255,7 +252,6 @@ Choice Hand::evaluateHand( Card dealerCard ) const
     return( c );
 }
 
-// TODO CS 32 students need to complete this operation
 bool Hand::isPair() const
 {
     if (mCard1.getFace() == mCard2.getFace())
@@ -266,7 +262,6 @@ bool Hand::isPair() const
     }
 }
 
-// TODO CS 32 students need to complete this operation
 bool Hand::isSoft() const
 {
     if ((mCard1.getFace() == Face::ACE) | (mCard2.getFace() == Face::ACE))
