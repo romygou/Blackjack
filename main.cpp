@@ -2,8 +2,6 @@
 //  main.cpp
 //  Blackjack 
 //
-//  Created by Romy Gou on 10/11/23.
-//
 
 #include <iostream>
 #include <cassert>
@@ -17,8 +15,6 @@ using namespace cs32;
 int main() {
     Card c;
 
-    
-    
     Card c1;
     Card c2;
     Hand h( c1, c2);
