@@ -2,8 +2,6 @@
 //  Card.cpp
 //  Blackjack 
 //
-//  Created by Romy Gou on 10/11/23.
-//
 
 #include "Card.h"
 
@@ -27,8 +25,6 @@ Suit Card::getSuit() const
     return( mSuit );
 }
 
-// TODO
-// CS 32 Students need to complete this operation
 void Card::setSuit( Suit s )
 {
     mSuit = s;
@@ -39,15 +35,11 @@ Face Card::getFace() const
     return( mFace );
 }
 
-// TODO
-// CS 32 Students need to complete this operation
 void Card::setFace( Face f )
 {
     mFace = f;
 }
 
-// TODO
-// CS 32 Students need to complete this operation
 int  Card::getValue() const
 {
     int result = 0;
