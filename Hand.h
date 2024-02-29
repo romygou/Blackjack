@@ -2,8 +2,6 @@
 //  Hand.h
 //  Blackjack 
 //
-//  Created by Romy Gou on 10/11/23.
-//
 
 #ifndef HAND_H
 #define HAND_H
@@ -15,7 +13,6 @@ namespace cs32
 {
 
 // this class represents an opening blackjack player hand of two cards
-// although this class builds and runs, various TODO operations need to be completed by CS 32 students
 class Hand
 {
 public:
@@ -25,13 +22,12 @@ public:
     Card getCard2() const;
     
 
-    // TODO CS 32 students need to complete this operation for a dealers card, what should the player's move be based on the strategy card provided in the assignment?
+    // operation for a dealers card, what should the player's move be based on the strategy card provided in the assignment?
     Choice evaluateHand( Card dealerCard ) const;
     
-    // TODO CS 32 students need to complete this operation
     // is this hand made up of two matching Face cards?
     bool isPair() const;
-    // TODO CS 32 students need to complete this operation
+
     // is this hand made up of at least one Ace?
     bool isSoft() const;
 private:
